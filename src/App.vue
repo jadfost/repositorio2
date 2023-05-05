@@ -11,4 +11,8 @@
           <label for="apellido">Apellido:</label>
           <input type="text" id="apellido" v-model="nuevoApellido" required>
         </div>
+        <div class="form-group">
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" v-model="nuevaEdad" required>
+        </div>
         
