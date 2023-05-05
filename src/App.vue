@@ -151,3 +151,22 @@ export default {
   margin-bottom: 10px;
 }
 
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0b0b0b;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #0077CC;
+}
+</style>
