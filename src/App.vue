@@ -20,4 +20,10 @@
           <input type="text" id="cedula" v-model="nuevaCedula" required>
         </div>
         <button type="submit" class="btn-add">Agregar</button>
+    </form>
+    <div class="summary">
+        <h2>Resumen</h2>
+        <p>Mayores de edad: {{ mayoresEdad }}</p>
+        <p>Menores de edad: {{ menoresEdad }}</p>
+    </div>
     
