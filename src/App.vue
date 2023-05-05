@@ -123,3 +123,17 @@ export default {
   padding: 10px 0;
 }
 
+.list-item-content {
+  flex-grow: 1;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
