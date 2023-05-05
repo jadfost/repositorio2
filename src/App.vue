@@ -97,3 +97,16 @@ export default {
   font-family: sans-serif;
 }
 
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0077CC;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
