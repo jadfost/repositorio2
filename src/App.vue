@@ -15,4 +15,8 @@
           <label for="edad">Edad:</label>
           <input type="number" id="edad" v-model="nuevaEdad" required>
         </div>
+        <div class="form-group">
+          <label for="cedula">Cédula:</label>
+          <input type="text" id="cedula" v-model="nuevaCedula" required>
+        </div>
         
