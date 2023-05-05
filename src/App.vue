@@ -19,4 +19,5 @@
           <label for="cedula">Cédula:</label>
           <input type="text" id="cedula" v-model="nuevaCedula" required>
         </div>
-        
+        <button type="submit" class="btn-add">Agregar</button>
+    
