@@ -26,4 +26,12 @@
         <p>Mayores de edad: {{ mayoresEdad }}</p>
         <p>Menores de edad: {{ menoresEdad }}</p>
     </div>
-    
+    <div class="card">
+      <ul class="list">
+        <li v-for="(persona, index) in personas" :key="index" class="list-item">
+          <div class="list-item-content">
+            <h3>{{ persona.nombre }} {{ persona.apellido }}</h3>
+            <p>Edad: {{ persona.edad }} años</p>
+            <p>Cédula: {{ persona.cedula }}</p>
+          </div>
+          
