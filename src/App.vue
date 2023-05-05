@@ -34,4 +34,10 @@
             <p>Edad: {{ persona.edad }} años</p>
             <p>Cédula: {{ persona.cedula }}</p>
           </div>
-          
+          <button @click="eliminarPersona(index)" class="btn-delete">Eliminar</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</template>
+
