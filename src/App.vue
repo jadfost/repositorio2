@@ -56,4 +56,10 @@ export default {
       nuevaCedula: ""
     };
   },
-  
+  methods: {
+    agregarPersona() {
+      if (!this.nuevoNombre || !this.nuevoApellido || !this.nuevaEdad || !this.nuevaCedula) {
+        alert("Todos los campos son obligatorios");
+        return;
+      }
+      
