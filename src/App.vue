@@ -78,4 +78,14 @@ export default {
       this.personas.splice(index, 1);
     }
   },
-  
+  computed: {
+    mayoresEdad() {
+      return this.personas.filter(persona => persona.edad >= 18).length;
+    },
+    menoresEdad() {
+      return this.personas.filter(persona => persona.edad < 18).length;
+    }
+  }
+};
+</script>
+
