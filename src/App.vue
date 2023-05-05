@@ -137,3 +137,17 @@ export default {
   cursor: pointer;
 }
 
+.btn-add {
+  background-color: #0077CC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
