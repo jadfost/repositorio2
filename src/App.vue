@@ -62,4 +62,10 @@ export default {
         alert("Todos los campos son obligatorios");
         return;
       }
+      const persona = {
+        nombre: this.nuevoNombre,
+        apellido: this.nuevoApellido,
+        edad: this.nuevaEdad,
+        cedula: this.nuevaCedula
+      };
       
