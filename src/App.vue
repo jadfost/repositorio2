@@ -46,4 +46,14 @@ export default {
   data() {
     return {
       personas: [
-        
+        { nombre: "Juan", apellido: "Pérez", edad: 25, cedula: "12345678" },
+        { nombre: "María", apellido: "González", edad: 17, cedula: "23456789" },
+        { nombre: "Pedro", apellido: "Sánchez", edad: 35, cedula: "34567890" }
+      ],
+      nuevoNombre: "",
+      nuevoApellido: "",
+      nuevaEdad: null,
+      nuevaCedula: ""
+    };
+  },
+  
