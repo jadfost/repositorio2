@@ -68,4 +68,10 @@ export default {
         edad: this.nuevaEdad,
         cedula: this.nuevaCedula
       };
-      
+      this.personas.push(persona);
+      this.nuevoNombre = "";
+      this.nuevoApellido = "";
+      this.nuevaEdad = null;
+      this.nuevaCedula = "";
+    },
+    
