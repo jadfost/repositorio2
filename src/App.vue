@@ -7,4 +7,8 @@
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" v-model="nuevoNombre" required>
         </div>
+        <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" v-model="nuevoApellido" required>
+        </div>
         
