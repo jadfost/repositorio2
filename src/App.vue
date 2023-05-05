@@ -74,4 +74,8 @@ export default {
       this.nuevaEdad = null;
       this.nuevaCedula = "";
     },
-    
+    eliminarPersona(index) {
+      this.personas.splice(index, 1);
+    }
+  },
+  
