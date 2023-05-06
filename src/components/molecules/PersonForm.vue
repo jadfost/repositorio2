@@ -12,7 +12,7 @@
         </div>
         <div class="person-form__field">
           <label for="age" class="person-form__label">Edad:</label>
-          <number-input id="age" name="age" v-model.number="person.age" :min="1" :max="90" required class="person-form__input" />
+          <input id="age" name="age" v-model.number="person.age" class="person-form__input" />
         </div>
         <div class="person-form__field">
           <label for="id-number" class="person-form__label">Cédula:</label>
@@ -35,7 +35,7 @@
         person: {
           name: '',
           lastName: '',
-          age: null,
+          age: '',
           idNumber: '',
         },
       };
@@ -46,7 +46,7 @@
         this.person = {
           name: '',
           lastName: '',
-          age: null,
+          age: '',
           idNumber: '',
         };
       },

@@ -20,9 +20,10 @@
           <td><button @click="removePerson(person.id)">Eliminar</button></td>
         </tr>
       </tbody>
+      <p>Total de personas mayores de edad: {{ adultsCount }}</p>
+      <p>Total de personas menores de edad: {{ minorsCount }}</p>
     </table>
-    <p>Total de personas mayores de edad: {{ adultsCount }}</p>
-    <p>Total de personas menores de edad: {{ minorsCount }}</p>
+    
   </div>
 </template>
 
@@ -58,10 +59,16 @@ export default {
   margin-top: 2rem;
   color: black;
 }
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
+  margin: auto;
 }
 
 th,
