@@ -17,8 +17,9 @@ export default {
   data() {
     return {
       persons: [
-        { id: 1, name: 'John', lastName: 'Doe', age: 30, idNumber: '12345678' },
-        { id: 2, name: 'Jane', lastName: 'Doe', age: 25, idNumber: '87654321' },
+        { id: 1, name: 'Maria', lastName: 'Carvajal', age: 30, idNumber: '12345678' },
+        { id: 2, name: 'Jonathan', lastName: 'Muñoz', age: 25, idNumber: '87654321' },
+        { id: 2, name: 'Daniel', lastName: 'Torres', age: 2, idNumber: '87654321' },
       ],
       nextPersonId: 3,
     };
