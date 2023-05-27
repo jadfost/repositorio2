@@ -1,36 +1,36 @@
 <template>
   <div>
-    <PersonForm @add-person="addPerson" />
-    <PersonList :persons="persons" @remove-person="removePerson" />
+    <FormularioPersona @agregar-persona="agregarPersona" />
+    <ListaPersonas :personas="personas" @eliminar-persona="eliminarPersona" />
   </div>
 </template>
 
 <script>
-import PersonForm from '@/components/molecules/PersonForm.vue';
-import PersonList from '@/components/organisms/PersonList.vue';
+import FormularioPersona from '@/components/molecules/PersonForm.vue';
+import ListaPersonas from '@/components/organisms/PersonList.vue';
 
 export default {
   components: {
-    PersonForm,
-    PersonList,
+    FormularioPersona,
+    ListaPersonas,
   },
   data() {
     return {
-      persons: [
-        { id: 1, name: 'Maria', lastName: 'Carvajal', age: 30, idNumber: '12345678' },
-        { id: 2, name: 'Jonathan', lastName: 'Muñoz', age: 25, idNumber: '87654321' },
-        { id: 2, name: 'Daniel', lastName: 'Torres', age: 2, idNumber: '87654321' },
+      personas: [
+        { id: 1, nombre: 'Maria', apellido: 'Carvajal', edad: 30, numeroCedula: '12345678' },
+        { id: 2, nombre: 'Jonathan', apellido: 'Muñoz', edad: 25, numeroCedula: '87654321' },
+        { id: 3, nombre: 'Daniel', apellido: 'Torres', edad: 2, numeroCedula: '87654321' },
       ],
-      nextPersonId: 3,
+      siguienteIdPersona: 4,
     };
   },
   methods: {
-    addPerson(person) {
-      person.id = this.nextPersonId++;
-      this.persons.push(person);
+    agregarPersona(persona) {
+      persona.id = this.siguienteIdPersona++;
+      this.personas.push(persona);
     },
-    removePerson(id) {
-      this.persons = this.persons.filter((person) => person.id !== id);
+    eliminarPersona(id) {
+      this.personas = this.personas.filter((persona) => persona.id !== id);
     },
   },
 };
