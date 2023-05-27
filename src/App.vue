@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import FormularioPersona from '@/components/molecules/PersonForm.vue';
-import ListaPersonas from '@/components/organisms/PersonList.vue';
+import FormularioPersona from '@/components/moleculas/FormularioPersona.vue';
+import ListaPersonas from '@/components/organismos/ListaPersonas.vue';
 
 export default {
   components: {

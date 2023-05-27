@@ -25,7 +25,7 @@
 
 <script>
 /* eslint-disable */
-import CampoNumerico from '@/components/atoms/NumberInput.vue';
+import CampoNumerico from '@/components/atomos/CampoNumerico.vue';
 
 export default {
   components: {
