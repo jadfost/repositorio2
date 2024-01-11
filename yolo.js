@@ -1,1 +1,1 @@
-console.log("YoloBadge")
+const vafef = "Mart"
